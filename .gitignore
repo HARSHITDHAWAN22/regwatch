@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+*.db
+data/uploads/*
+data/faiss_index/*
+!data/uploads/.gitkeep
+!data/faiss_index/.gitkeep
+eval/eval_report.json
+.pytest_cache/
+*.egg-info/
