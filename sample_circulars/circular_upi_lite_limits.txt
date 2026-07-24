@@ -1,0 +1,35 @@
+RESERVE BANK OF INDIA
+DEPARTMENT OF PAYMENT AND SETTLEMENT SYSTEMS
+
+RBI/2024-25/SAMPLE-01
+CO.DPSS.POLC.No.S-1001/02-24-2024
+
+December 04, 2024
+
+To
+All Banks and Payment Service Providers participating in UPI
+
+Madam/Dear Sir,
+
+Enhancement of UPI Lite Wallet and Per-Transaction Limits
+
+1. Please refer to the framework for facilitating small value digital payments in offline mode issued in January 2022, and the enhancements to UPI Lite announced in the Statement on Developmental and Regulatory Policies dated October 09, 2024.
+
+2. On a review of the small value digital payments ecosystem and with a view to encouraging wider adoption of UPI Lite, it has been decided to enhance the applicable limits as under:
+
+2.1 Per-transaction limit for UPI Lite shall be enhanced from Rs. 500 to Rs. 1,000.
+
+2.2 The total wallet limit for UPI Lite at any point in time shall be enhanced from Rs. 2,000 to Rs. 5,000.
+
+3. All banks and payment service providers offering UPI Lite shall put in place necessary systems and process changes to give effect to the enhanced limits stated in paragraph 2 above, on or before January 31, 2025.
+
+4. Additional Factor of Authentication (AFA) shall continue to not be mandatory for UPI Lite transactions carried out within the enhanced limits specified above, and real-time transaction alerts shall continue to not be required for such transactions, in line with the existing offline framework.
+
+5. Entities that fail to implement the revised limits within the timeline specified in paragraph 3 shall be liable for supervisory action under the Payment and Settlement Systems Act, 2007.
+
+6. This directive is issued under Section 10(2) read with Section 18 of the Payment and Settlement Systems Act, 2007.
+
+Yours faithfully,
+
+(Chief General Manager)
+Department of Payment and Settlement Systems

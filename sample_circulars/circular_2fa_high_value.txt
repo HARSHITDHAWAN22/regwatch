@@ -1,0 +1,30 @@
+RESERVE BANK OF INDIA
+DEPARTMENT OF PAYMENT AND SETTLEMENT SYSTEMS
+
+RBI/2026-27/084
+DPSS.CO.PD.No.42/02.23.001/2026-27
+
+To
+All Banks and Non-Bank Prepaid Payment Instrument Issuers
+
+Madam/Dear Sir,
+
+Additional Factor of Authentication for Digital Payment Transactions
+
+1. In terms of extant guidelines, all digital payment transactions, whether domestic or cross-border, shall be authenticated by an Additional Factor of Authentication (AFA), except where specifically exempted.
+
+2. It has been decided to revise the threshold for mandatory AFA on card-not-present recurring transactions from Rs. 15,000 to Rs. 25,000 per transaction, with effect from the date of this circular.
+
+3. For fund transfers initiated through internet banking or mobile banking applications exceeding Rs. 2,00,000 in a single transaction, an additional confirmation step involving a cooling-off period of 4 hours before the first such transfer to a new beneficiary shall be implemented, in addition to existing AFA requirements.
+
+4. This cooling-off period shall not apply to transfers to beneficiaries already registered and used for at least one successful transaction in the preceding 30 days.
+
+5. Regulated Entities shall ensure that the AFA mechanism is not solely reliant on SMS-based OTP where the customer has opted for app-based authentication, in order to reduce SIM-swap-related fraud risk.
+
+6. This circular does not alter the existing exemption for UPI Lite offline transactions or small-value contactless transactions, which continue to be governed by their respective specific circulars.
+
+7. Entities shall implement the changes under paragraph 3 within 90 days of this circular.
+
+Yours faithfully,
+
+(Chief General Manager)

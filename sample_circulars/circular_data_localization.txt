@@ -1,0 +1,30 @@
+RESERVE BANK OF INDIA
+DEPARTMENT OF PAYMENT AND SETTLEMENT SYSTEMS
+
+RBI/2026-27/057
+DPSS.CO.OD.No.29/06.08.005/2026-27
+
+To
+All System Providers and Payment Aggregators
+
+Madam/Dear Sir,
+
+Storage of Payment System Data - Clarifications
+
+1. In terms of the directive issued on April 6, 2018 (updated periodically), all System Providers shall ensure that the entire data relating to payment systems operated by them is stored only in India.
+
+2. This circular clarifies that "entire data" includes end-to-end transaction details, collection, storage, and processing of payment data, and any subsequent processed or derived data.
+
+3. Where the processing is done abroad, the data shall be deleted from the systems abroad and brought back to India within 24 hours (one business day) of processing.
+
+4. For the purpose of transaction tracking and reconciliation, a copy of the payment data pertaining to the foreign leg of a transaction (if any) may be stored abroad, in addition to the mandatory storage in India.
+
+5. System Providers shall submit a Board-approved System Audit Report (SAR) confirming compliance, conducted by CERT-In empanelled auditors, on an annual basis by April 30 each year.
+
+6. This circular does not apply to data related to customer relationship management, marketing analytics, or loyalty programs, which may continue to be processed as per the entity's existing data governance policy.
+
+7. Non-compliance shall be viewed seriously and may attract action under the Payment and Settlement Systems Act, 2007, including suspension of authorization.
+
+Yours faithfully,
+
+(Chief General Manager-in-Charge)

@@ -1,0 +1,30 @@
+RESERVE BANK OF INDIA
+DEPARTMENT OF REGULATION
+
+RBI/2026-27/041
+DoR.CRE.REC.No.18/21.01.023/2026-27
+
+To
+All Non-Banking Financial Companies and Digital Lending Platforms
+
+Madam/Dear Sir,
+
+Fair Lending Practices - Disclosure of Annual Percentage Rate and Penal Charges
+
+1. It has come to the notice of the Reserve Bank that several regulated entities disclose only the nominal interest rate to borrowers at the time of loan sanction, without a consolidated statement of the Annual Percentage Rate (APR) inclusive of processing fees and other charges.
+
+2. All Regulated Entities shall prominently disclose the APR, calculated on the basis of total cost of credit, in the Key Fact Statement (KFS) provided to the borrower before loan disbursement.
+
+3. The KFS shall separately itemize the processing fee, insurance premium (if bundled), and any other upfront charges, in addition to the APR figure.
+
+4. Penal charges levied for late payment shall not be capitalized, i.e., no further interest shall be computed on penal charges. Penal charges shall be reasonable and shall not be used as a revenue enhancement tool.
+
+5. Regulated Entities shall provide the KFS to the borrower at least 24 hours before the borrower is required to digitally accept the loan terms, to allow adequate time for review.
+
+6. This circular shall come into effect from October 1, 2026. Entities that fail to comply shall be liable for supervisory action, including restrictions on onboarding new borrowers.
+
+7. Regulated Entities are advised to review and update their loan origination and disclosure systems accordingly.
+
+Yours faithfully,
+
+(Chief General Manager)

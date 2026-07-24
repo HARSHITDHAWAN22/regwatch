@@ -1,0 +1,30 @@
+RESERVE BANK OF INDIA
+DEPARTMENT OF PAYMENT AND SETTLEMENT SYSTEMS
+
+RBI/2026-27/092
+DPSS.CO.PD.No.47/02.14.003/2026-27
+
+To
+All Banks, Card Issuers, and Prepaid Payment Instrument Issuers
+
+Madam/Dear Sir,
+
+e-Mandates for Recurring Transactions - Pre-Debit Notification
+
+1. Regulated Entities shall send a pre-debit notification to the customer at least 24 hours prior to the actual debit for all recurring transactions processed under an e-mandate.
+
+2. The pre-debit notification shall clearly state the amount to be debited, the date of debit, and the merchant/service name, and shall provide the customer a simple mechanism to opt out of that specific transaction before it is processed.
+
+3. Additional Factor of Authentication shall be required for the first transaction under a new e-mandate, and for any subsequent transaction where the mandate amount exceeds Rs. 15,000.
+
+4. Where a recurring mandate amount is increased or a new mandate is registered, the customer shall be required to re-authenticate the mandate in full, and the earlier mandate shall stand revoked upon successful registration of the new one.
+
+5. Regulated Entities shall provide customers a single-window facility, either through the entity's app or the NPCI mandate management portal, to view, pause, or cancel all active e-mandates registered against their account.
+
+6. This circular is not applicable to standing instructions for EMI repayment under loan agreements, which shall continue to be governed by the terms of the respective loan agreement and applicable lending circulars.
+
+7. Regulated Entities shall ensure full compliance within 120 days of the date of this circular.
+
+Yours faithfully,
+
+(Chief General Manager)

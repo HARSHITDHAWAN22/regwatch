@@ -1,0 +1,30 @@
+RESERVE BANK OF INDIA
+DEPARTMENT OF PAYMENT AND SETTLEMENT SYSTEMS
+
+RBI/2026-27/071
+DPSS.CO.PD.No.34/02.14.008/2026-27
+
+To
+All Payment Aggregators and Payment Gateways
+
+Madam/Dear Sir,
+
+Guidelines on Merchant Onboarding by Payment Aggregators
+
+1. Payment Aggregators (PAs) shall carry out background and antecedent verification of merchants before onboarding, to check for any prior conviction of the merchant or promoter for financial fraud, money laundering, or terror financing.
+
+2. PAs shall verify the merchant's Permanent Account Number (PAN) and the nature of business/goods/services undertaken by the merchant.
+
+3. For high-risk categories of merchants (as defined by the PA's Board-approved policy), PAs shall additionally verify the business registration certificate, GST registration, and bank account confirmation via penny-drop or equivalent mechanism.
+
+4. PAs shall maintain a Negative List of merchants who are proven fraudsters or against whom multiple chargeback/fraud complaints have been received, and shall not onboard any merchant appearing on such lists maintained by RBI or other regulators.
+
+5. PAs shall not, on their own accord, submit any bill or invoice for online sale/purchase of drugs, wildlife products, and other items prohibited by law.
+
+6. This is distinct from and in addition to customer-level KYC requirements applicable to individual accountholders under existing Master Direction on KYC, which continue to apply separately at the customer/cardholder level and are not modified by this circular.
+
+7. PAs shall complete a comprehensive review of existing merchant onboarding records within 6 months of the date of this circular and remediate any gaps.
+
+Yours faithfully,
+
+(Chief General Manager)

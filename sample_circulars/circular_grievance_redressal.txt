@@ -1,0 +1,30 @@
+RESERVE BANK OF INDIA
+CONSUMER EDUCATION AND PROTECTION DEPARTMENT
+
+RBI/2026-27/063
+CEPD.CO.PRD.No.11/13.01.013/2026-27
+
+To
+All Scheduled Commercial Banks and Payment System Operators
+
+Madam/Dear Sir,
+
+Turn Around Time for Resolution of Customer Complaints - Failed Transactions
+
+1. Regulated Entities shall acknowledge a customer complaint regarding a failed or unauthorized transaction within 24 hours of receipt, through SMS, email, or in-app notification.
+
+2. Complaints relating to failed transactions where the customer's account was debited but the beneficiary did not receive credit shall be resolved, with auto-reversal of the amount, within 5 calendar days from the date of the complaint.
+
+3. Where the complaint pertains to a disputed or unauthorized transaction requiring investigation, the Regulated Entity shall provide a provisional credit to the customer's account within 10 working days, pending final resolution, provided the customer has reported the transaction within 3 days of receiving notification of it.
+
+4. Regulated Entities shall display the escalation matrix, including the name and contact details of the Nodal Officer, prominently on their website and mobile application.
+
+5. Failure to resolve a complaint within the timelines specified above shall entitle the customer to compensation as per the Reserve Bank - Integrated Ombudsman Scheme, 2021, at the rate specified therein.
+
+6. This circular does not apply to complaints relating to loan restructuring, interest rate disputes, or KYC document rejection, which shall continue to be governed by existing grievance redressal timelines under other applicable circulars.
+
+7. This circular shall come into force with immediate effect.
+
+Yours faithfully,
+
+(Chief General Manager)

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "KYC Verification Limit",
+    "description": "Minimum documents and verification steps required for customer KYC on transactions under Rs. 10,000, including Aadhaar-based e-KYC and video KYC procedures.",
+    "owner_team": "Compliance Team"
+  },
+  {
+    "name": "UPI Transaction Cap",
+    "description": "Maximum per-transaction and daily cumulative limits for UPI payments processed through the platform for retail customers.",
+    "owner_team": "Payments Team"
+  },
+  {
+    "name": "Loan Interest Rate Disclosure",
+    "description": "Requirements for disclosing annual percentage rate (APR), processing fees, and penal charges to borrowers before loan disbursement.",
+    "owner_team": "Lending Team"
+  },
+  {
+    "name": "Data Localization for Payment Data",
+    "description": "Requirement to store all payment transaction data exclusively on servers located within India.",
+    "owner_team": "Infrastructure Team"
+  },
+  {
+    "name": "Grievance Redressal Timeline",
+    "description": "Maximum time allowed to acknowledge and resolve customer complaints related to failed transactions or unauthorized debits.",
+    "owner_team": "Customer Support"
+  },
+  {
+    "name": "Merchant Onboarding Due Diligence",
+    "description": "Minimum verification checks (business registration, PAN, bank account validation) required before onboarding a new merchant.",
+    "owner_team": "Risk Team"
+  },
+  {
+    "name": "Two-Factor Authentication for High-Value Transfers",
+    "description": "Mandatory additional authentication factor for fund transfers above a specified threshold amount.",
+    "owner_team": "Security Team"
+  },
+  {
+    "name": "Recurring Payment (Auto-Debit) Mandate Rules",
+    "description": "Pre-debit notification requirements and customer consent rules for recurring auto-debit mandates on subscriptions and EMIs.",
+    "owner_team": "Payments Team"
+  },
+  {
+    "name": "Chargeback and Refund Processing Time",
+    "description": "Maximum number of business days allowed to process a customer refund or chargeback after a failed or disputed transaction.",
+    "owner_team": "Payments Team"
+  },
+  {
+    "name": "Credit Bureau Reporting Frequency",
+    "description": "Frequency and format requirements for reporting customer loan repayment data to credit information companies.",
+    "owner_team": "Lending Team"
+  },
+  {
+    "name": "Third-Party Data Sharing Consent",
+    "description": "Explicit customer consent requirements before sharing transaction or financial data with third-party partners or aggregators.",
+    "owner_team": "Legal Team"
+  },
+  {
+    "name": "Suspicious Transaction Reporting (STR)",
+    "description": "Internal thresholds and timelines for flagging and reporting suspicious transactions to the Financial Intelligence Unit.",
+    "owner_team": "Compliance Team"
+  },
+  {
+    "name": "Card Tokenization Requirement",
+    "description": "Requirement to tokenize stored card credentials instead of storing raw card numbers, per card network guidelines.",
+    "owner_team": "Security Team"
+  },
+  {
+    "name": "Payroll Payment Cutoff Timelines",
+    "description": "Deadlines for initiating payroll bank transfers relative to the stated salary disbursement date.",
+    "owner_team": "Payroll Operations"
+  },
+  {
+    "name": "Interest-Free Period on Credit Products",
+    "description": "Rules governing the minimum interest-free repayment period offered on credit line and BNPL products.",
+    "owner_team": "Lending Team"
+  }
+]

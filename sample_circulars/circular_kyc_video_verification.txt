@@ -1,0 +1,35 @@
+RESERVE BANK OF INDIA
+DEPARTMENT OF REGULATION
+
+RBI/2024-25/SAMPLE-02
+CO.DoR.AML.No.S-2002/14-24-2024
+
+November 18, 2024
+
+To
+All Regulated Entities offering digital account opening
+
+Madam/Dear Sir,
+
+Streamlining of Video-based Customer Identification Process (V-CIP) for Low-Risk Accounts
+
+1. Please refer to the Master Direction on Know Your Customer (KYC) dated February 25, 2016, as amended from time to time, particularly the provisions relating to Video-based Customer Identification Process.
+
+2. It has come to the attention of the Reserve Bank that Regulated Entities have adopted varying interpretations regarding the minimum documentation required for onboarding customers with transaction limits under Rs. 10,000 per month through V-CIP.
+
+3. To bring uniformity, Regulated Entities are advised that for accounts with a self-declared monthly transaction limit not exceeding Rs. 10,000, the following simplified verification steps shall be sufficient:
+
+3.1 Aadhaar-based e-KYC authentication using OTP, without mandatory PAN verification at the onboarding stage, provided PAN is captured and verified within 60 days of account opening.
+
+3.2 A live photograph captured during the V-CIP session, matched against the Aadhaar photograph using a liveness detection mechanism with a minimum accuracy threshold as specified by the Regulated Entity's board-approved policy.
+
+4. For accounts where the monthly transaction limit exceeds Rs. 10,000, the existing full KYC requirements under the Master Direction shall continue to apply without modification.
+
+5. Regulated Entities shall update their KYC policies and onboarding systems to reflect this simplified process within 90 days from the date of this circular, and shall submit a compliance confirmation to the Regional Office concerned.
+
+6. Non-compliance with the timelines specified in paragraph 5 shall attract monetary penalty under Section 47A(1)(c) of the Banking Regulation Act, 1949.
+
+Yours faithfully,
+
+(Chief General Manager-in-Charge)
+Department of Regulation

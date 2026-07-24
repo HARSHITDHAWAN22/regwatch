@@ -1,0 +1,30 @@
+RESERVE BANK OF INDIA
+DEPARTMENT OF PAYMENT AND SETTLEMENT SYSTEMS
+
+RBI/2026-27/099
+DPSS.CO.PD.No.51/02.27.019/2026-27
+
+To
+All Payment System Operators and Participants
+
+Madam/Dear Sir,
+
+Turn Around Time for Refund of Failed Transactions
+
+1. In case of a failed transaction where the beneficiary account is not credited but the remitter's account has been debited, the amount shall be reversed (auto-reversal) to the remitter within a maximum of T+1 working day (T being the date of the failed transaction).
+
+2. Where the auto-reversal under paragraph 1 does not occur within the prescribed period, the Regulated Entity shall pay a compensation of Rs. 100 per day of delay to the affected customer, credited automatically without requiring a separate claim from the customer.
+
+3. For chargebacks raised by a customer for goods/services not received or not as described, the acquiring bank/PA shall provide a provisional credit to the customer's account within 7 working days from the date of the chargeback claim, pending resolution with the merchant.
+
+4. Merchants shall be given 10 working days to respond to a chargeback with supporting evidence, failing which the chargeback shall be deemed to be accepted and settled in favour of the customer.
+
+5. This circular applies uniformly across all payment rails, including UPI, cards, IMPS, and net banking, unless a rail-specific NPCI circular provides for a shorter timeline, in which case the shorter timeline shall prevail.
+
+6. This circular is not applicable to disputes involving cross-border remittances, which continue to be governed by FEMA regulations and correspondent banking agreements.
+
+7. This circular takes effect from January 1, 2027.
+
+Yours faithfully,
+
+(Chief General Manager)
