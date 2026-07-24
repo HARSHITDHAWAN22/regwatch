@@ -372,13 +372,17 @@ with tab_upload:
                 st.info(f"Job queued: `{job_id}` — processing runs in the background.")
 
                 progress = st.empty()
+                status = {"status": "processing"}
                 for _ in range(60):
-                    status_r = requests.get(f"{API_BASE}/jobs/{job_id}")
-                    status = status_r.json()
-                    progress.write(status)
-                    if status["status"] in ("completed", "failed"):
-                        break
-                    time.sleep(2)
+                    try:
+                        status_r = requests.get(f"{API_BASE}/jobs/{job_id}", timeout=10)
+                        status = status_r.json()
+                        progress.write(status)
+                        if status["status"] in ("completed", "failed"):
+                            break
+                    except Exception:
+                        progress.write({"status": "processing", "note": "waiting on slow free-tier response..."})
+                    time.sleep(3)
 
                 if status["status"] == "completed":
                     st.success(f"Done — {status.get('impacts_found', 0)} impact(s) found. Check the Impact Assessments tab.")
