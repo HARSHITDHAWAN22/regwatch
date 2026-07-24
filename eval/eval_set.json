@@ -1,0 +1,62 @@
+[
+  {
+    "clause_text": "Per-transaction limit for UPI Lite shall be enhanced from Rs. 500 to Rs. 1,000.",
+    "policy_name": "UPI Transaction Cap",
+    "expected_impact": true,
+    "note": "Directly changes a per-transaction limit this policy governs"
+  },
+  {
+    "clause_text": "The total wallet limit for UPI Lite at any point in time shall be enhanced from Rs. 2,000 to Rs. 5,000.",
+    "policy_name": "UPI Transaction Cap",
+    "expected_impact": true,
+    "note": "Directly changes a cumulative limit this policy governs"
+  },
+  {
+    "clause_text": "Per-transaction limit for UPI Lite shall be enhanced from Rs. 500 to Rs. 1,000.",
+    "policy_name": "Loan Interest Rate Disclosure",
+    "expected_impact": false,
+    "note": "Unrelated domains - UPI limits vs loan disclosure"
+  },
+  {
+    "clause_text": "Aadhaar-based e-KYC authentication using OTP, without mandatory PAN verification at the onboarding stage, provided PAN is captured and verified within 60 days of account opening.",
+    "policy_name": "KYC Verification Limit",
+    "expected_impact": true,
+    "note": "Directly changes onboarding KYC documentation requirements"
+  },
+  {
+    "clause_text": "Aadhaar-based e-KYC authentication using OTP, without mandatory PAN verification at the onboarding stage, provided PAN is captured and verified within 60 days of account opening.",
+    "policy_name": "Merchant Onboarding Due Diligence",
+    "expected_impact": false,
+    "note": "This clause is about customer KYC, not merchant onboarding - a plausible false-positive trap"
+  },
+  {
+    "clause_text": "Non-compliance with the timelines specified in paragraph 5 shall attract monetary penalty under Section 47A(1)(c) of the Banking Regulation Act, 1949.",
+    "policy_name": "KYC Verification Limit",
+    "expected_impact": true,
+    "note": "Penalty clause tied to the KYC timeline change above - tests whether context carries across nearby clauses"
+  },
+  {
+    "clause_text": "Additional Factor of Authentication (AFA) shall continue to not be mandatory for UPI Lite transactions carried out within the enhanced limits specified above.",
+    "policy_name": "Two-Factor Authentication for High-Value Transfers",
+    "expected_impact": false,
+    "note": "Explicitly says AFA is NOT required for UPI Lite - should not be flagged as impacting the 2FA policy since UPI Lite is a distinct low-value product"
+  },
+  {
+    "clause_text": "Regulated Entities shall update their KYC policies and onboarding systems to reflect this simplified process within 90 days from the date of this circular.",
+    "policy_name": "Grievance Redressal Timeline",
+    "expected_impact": false,
+    "note": "Deadline mentioned but for a different process entirely - tests that the model doesn't over-match on 'timeline' keyword alone"
+  },
+  {
+    "clause_text": "For accounts where the monthly transaction limit exceeds Rs. 10,000, the existing full KYC requirements under the Master Direction shall continue to apply without modification.",
+    "policy_name": "KYC Verification Limit",
+    "expected_impact": true,
+    "note": "Clarifies scope boundary of the KYC policy - still relevant even though it says 'no modification'"
+  },
+  {
+    "clause_text": "This directive is issued under Section 10(2) read with Section 18 of the Payment and Settlement Systems Act, 2007.",
+    "policy_name": "UPI Transaction Cap",
+    "expected_impact": false,
+    "note": "Boilerplate legal citation clause, not substantive - tests the model doesn't flag every clause in a relevant circular"
+  }
+]
