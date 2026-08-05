@@ -38,6 +38,22 @@ The live demo runs on free-tier hosting — 512MB RAM cap. Login, the policy reg
 
 RBAC is role-level (admin/reviewer/viewer), not resource-level — there's no "you can only touch what you uploaded" yet. And the eval set is small, as covered above.
 
+## Future improvements
+
+A few things I'd change once this needs to handle more than a demo's worth of load:
+
+- **Postgres instead of SQLite** — SQLite locks the whole file on every write, which is fine solo but won't hold up with multiple reviewers writing at once. Already just a `DATABASE_URL` change away, no rewrite needed.
+
+- **Elasticsearch instead of in-memory BM25** — the current keyword index rebuilds itself from scratch on every add, which is a non-issue at a few thousand chunks but would start to hurt on a much bigger circular archive.
+
+- **A paid LLM tier (or a different provider)** — the free Gemini tier caps at 20 calls/day, which is the actual reason the full 30-case eval set hasn't been run cleanly yet. Swapping providers is a one-file change thanks to the factory pattern in `llm_client.py`.
+
+- **Resource-level RBAC** — right now any reviewer can review any circular. Locking that down to "only what you uploaded or were assigned" just needs an extra ownership field and a permission check next to the existing role check.
+
+- **Celery/RQ instead of BackgroundTasks** — current background jobs have no retry logic and run in a single process. Worth doing once retries or multi-worker scaling actually matter.
+
+- **A real frontend (React/Next.js)** — Streamlit got a working reviewer UI out fast, which is what I needed. A production version with real users would eventually want something more polished.
+
 ## Running it locally
 
 Python 3.11. Redis is optional — falls back to in-memory automatically if nothing's running.
