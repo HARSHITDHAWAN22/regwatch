@@ -44,26 +44,28 @@ Feedback quality is also fully trusted — a reviewer's confirm/reject decision 
 
 A few things I'd change once this needs to handle more than a demo's worth of load:
 
-- **Postgres instead of SQLite** — SQLite locks the whole file on every write, which is fine solo but won't hold up with multiple reviewers writing at once. Already just a `DATABASE_URL` change away, no rewrite needed.
+- **Postgres instead of SQLite** - SQLite locks the whole file on every write, which is fine solo but won't hold up with multiple reviewers writing at once. Already just a `DATABASE_URL` change away, no rewrite needed.
 
-- **Elasticsearch instead of in-memory BM25** — the current keyword index rebuilds itself from scratch on every add, which is a non-issue at a few thousand chunks but would start to hurt on a much bigger circular archive.
+- **Elasticsearch instead of in-memory BM25** - the current keyword index rebuilds itself from scratch on every add, which is a non-issue at a few thousand chunks but would start to hurt on a much bigger circular archive.
 
 - **A paid LLM tier (or a different provider)** — the free Gemini tier caps at 20 calls/day, which is the actual reason the full 30-case eval set hasn't been run cleanly yet. Swapping providers is a one-file change thanks to the factory pattern in `llm_client.py`.
 
-- **Resource-level RBAC** — right now any reviewer can review any circular. Locking that down to "only what you uploaded or were assigned" just needs an extra ownership field and a permission check next to the existing role check.
+- **Resource-level RBAC** - right now any reviewer can review any circular. Locking that down to "only what you uploaded or were assigned" just needs an extra ownership field and a permission check next to the existing role check.
 
-- **Celery/RQ instead of BackgroundTasks** — current background jobs have no retry logic and run in a single process. Worth doing once retries or multi-worker scaling actually matter.
+- **Celery/RQ instead of BackgroundTasks** - current background jobs have no retry logic and run in a single process. Worth doing once retries or multi-worker scaling actually matter.
 
-- **A real frontend (React/Next.js)** — Streamlit got a working reviewer UI out fast, which is what I needed. A production version with real users would eventually want something more polished.
+- **A real frontend (React/Next.js)** - Streamlit got a working reviewer UI out fast, which is what I needed. A production version with real users would eventually want something more polished.
 
-- **Rate limiting on review actions** — a reviewer can currently confirm/reject as many findings as they want, as fast as they want. Capping how many reviews one account can submit in a given window would limit how much damage a single compromised or malicious account could do before being noticed.
+- **Rate limiting on review actions** - a reviewer can currently confirm/reject as many findings as they want, as fast as they want. Capping how many reviews one account can submit in a given window would limit how much damage a single compromised or malicious account could do before being noticed.
 
-- **Suspicious feedback pattern detection** — no current mechanism flags a reviewer whose confirm/reject behavior looks off (e.g. rejecting far more than other reviewers, or flip-flopping on the same policy repeatedly). Tracking per-reviewer patterns and flagging outliers to an admin would catch feedback-poisoning early instead of letting it silently bias future LLM judgments.
+- **Suspicious feedback pattern detection** - no current mechanism flags a reviewer whose confirm/reject behavior looks off (e.g. rejecting far more than other reviewers, or flip-flopping on the same policy repeatedly). Tracking per-reviewer patterns and flagging outliers to an admin would catch feedback-poisoning early instead of letting it silently bias future LLM judgments.
 
-- **Semantic caching instead of exact-text matching** — the cache currently only hits on byte-identical clause text, so differently-worded restatements of the same requirement each trigger a fresh LLM call. Matching on embedding similarity instead would catch these near-duplicates and matter a lot more at real scale, though getting the similarity threshold right (avoiding false matches) is the real challenge there.
+- **Semantic caching instead of exact-text matching** - the cache currently only hits on byte-identical clause text, so differently-worded restatements of the same requirement each trigger a fresh LLM call. Matching on embedding similarity instead would catch these near-duplicates and matter a lot more at real scale, though getting the similarity threshold right (avoiding false matches) is the real challenge there.
+
+- **Tamper-evidence on audit rows** - audit rows are append-only by convention only, not enforced by the database. A SHA-256 hash of core fields at creation time would make tampering detectable.
 ## Running it locally
 
-Python 3.11. Redis is optional — falls back to in-memory automatically if nothing's running.
+Python 3.11. Redis is optional - falls back to in-memory automatically if nothing's running.
 
 ```bash
 git clone https://github.com/HARSHITDHAWAN22/regwatch.git
