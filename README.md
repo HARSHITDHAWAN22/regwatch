@@ -60,6 +60,7 @@ A few things I'd change once this needs to handle more than a demo's worth of lo
 
 - **Suspicious feedback pattern detection** — no current mechanism flags a reviewer whose confirm/reject behavior looks off (e.g. rejecting far more than other reviewers, or flip-flopping on the same policy repeatedly). Tracking per-reviewer patterns and flagging outliers to an admin would catch feedback-poisoning early instead of letting it silently bias future LLM judgments.
 
+- **Semantic caching instead of exact-text matching** — the cache currently only hits on byte-identical clause text, so differently-worded restatements of the same requirement each trigger a fresh LLM call. Matching on embedding similarity instead would catch these near-duplicates and matter a lot more at real scale, though getting the similarity threshold right (avoiding false matches) is the real challenge there.
 ## Running it locally
 
 Python 3.11. Redis is optional — falls back to in-memory automatically if nothing's running.
