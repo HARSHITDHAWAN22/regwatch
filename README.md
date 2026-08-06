@@ -38,6 +38,8 @@ The live demo runs on free-tier hosting — 512MB RAM cap. Login, the policy reg
 
 RBAC is role-level (admin/reviewer/viewer), not resource-level — there's no "you can only touch what you uploaded" yet. And the eval set is small, as covered above.
 
+Feedback quality is also fully trusted — a reviewer's confirm/reject decision gets fed directly into future LLM prompts as a few-shot example, with no check on whether that feedback was actually correct. A malicious or compromised reviewer account could repeatedly submit bad feedback (rejecting real impacts, confirming false ones) and gradually bias the model's judgment for that policy, since there's currently no rate limiting or anomaly detection on review actions.
+
 ## Future improvements
 
 A few things I'd change once this needs to handle more than a demo's worth of load:
@@ -53,6 +55,10 @@ A few things I'd change once this needs to handle more than a demo's worth of lo
 - **Celery/RQ instead of BackgroundTasks** — current background jobs have no retry logic and run in a single process. Worth doing once retries or multi-worker scaling actually matter.
 
 - **A real frontend (React/Next.js)** — Streamlit got a working reviewer UI out fast, which is what I needed. A production version with real users would eventually want something more polished.
+
+- **Rate limiting on review actions** — a reviewer can currently confirm/reject as many findings as they want, as fast as they want. Capping how many reviews one account can submit in a given window would limit how much damage a single compromised or malicious account could do before being noticed.
+
+- **Suspicious feedback pattern detection** — no current mechanism flags a reviewer whose confirm/reject behavior looks off (e.g. rejecting far more than other reviewers, or flip-flopping on the same policy repeatedly). Tracking per-reviewer patterns and flagging outliers to an admin would catch feedback-poisoning early instead of letting it silently bias future LLM judgments.
 
 ## Running it locally
 
