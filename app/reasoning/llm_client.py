@@ -16,6 +16,8 @@ from google.genai import types
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from app.config import get_settings
 
+from app.rate_limiter import get_rate_limiter
+
 settings = get_settings()
 
 _client: genai.Client | None = None
@@ -26,6 +28,9 @@ def get_llm_client() -> genai.Client:
     if _client is None:
         _client = genai.Client(api_key=settings.gemini_api_key)
     return _client
+
+_LLM_RATE_LIMIT_KEY = "gemini"
+_LLM_MAX_CALLS_PER_MINUTE = getattr(settings, "llm_rate_limit_per_minute", 50)
 
 
 class CircuitBreaker:
@@ -99,6 +104,8 @@ def call_llm_json(system_prompt: str, user_prompt: str) -> tuple[dict, int, int]
     """
     if _breaker.is_open():
         raise LLMUnavailableError("Circuit breaker open - LLM temporarily unavailable")
+
+    get_rate_limiter().wait_and_check(_LLM_RATE_LIMIT_KEY, _LLM_MAX_CALLS_PER_MINUTE, 60.0)
 
     start = time.time()
     try:
