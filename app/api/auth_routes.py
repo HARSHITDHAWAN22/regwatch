@@ -8,6 +8,9 @@ from app.rate_limiter import get_rate_limiter
 from datetime import datetime
 from jose import jwt, JWTError
 from app.config import get_settings
+from app.models.auth_event import AuthEventType
+from app.auth_event_logger import log_auth_event
+
 
 settings = get_settings()
 router = APIRouter(prefix="/auth", tags=["auth"])
