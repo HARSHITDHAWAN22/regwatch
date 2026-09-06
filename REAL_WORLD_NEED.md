@@ -38,3 +38,10 @@ Equitas Small Finance Bank - Rs 65 lakh (2025) Fined over foreclosure charge and
 India Post Payments Bank - Rs 26.70 lakh (2025) Fined for not following 'Customer Service in Banks' directions. Source: https://www.business-standard.com/amp/companies/news/rbi-penalises-equitas-small-finance-bank-india-post-payments-bank-125013101573_1.html
 
 14 banks fined at once (2021) All fined for non-compliance with directions on lending to NBFCs and related bank-finance guidelines. Worth noting - compliance gaps like this often happen across the whole industry at once, not just to one unlucky company. Source: https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=51863
+
+
+NBFCs / Lending / Credit Bureaus
+
+TransUnion CIBIL, CRIF High Mark, Equifax, and 2 NBFCs (2026) Five entities fined for issues ranging from delayed customer compensation to credit reporting errors, microfinance loan pricing rules, and securitization requirements. Source: https://www.analyticsinsight.net/news/rbi-imposes-penalties-on-5-firms-over-credit-reporting-compliance-lapses
+
+3 NBFCs, Rs 12 lakh total (2026) One of them hadn't set up a system to review account risk categorisation every six months, as required. Another hadn't built software to identify and report suspicious transactions. Source: https://www.fintechbiznews.com/govtregulators/3-nbfcs-penalized-total-fine-rs12-lakh
