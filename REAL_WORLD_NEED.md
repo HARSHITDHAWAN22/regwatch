@@ -53,3 +53,14 @@ SBI General Insurance - Rs 25 lakh Fined for not meeting minimum obligations und
 TransUnion CIBIL, CRIF High Mark, Equifax, and 2 NBFCs (2026) Five entities fined for issues ranging from delayed customer compensation to credit reporting errors, microfinance loan pricing rules, and securitization requirements. Source: https://www.analyticsinsight.net/news/rbi-imposes-penalties-on-5-firms-over-credit-reporting-compliance-lapses
 
 3 NBFCs, Rs 12 lakh total (2026) One of them hadn't set up a system to review account risk categorisation every six months, as required. Another hadn't built software to identify and report suspicious transactions. Source: https://www.fintechbiznews.com/govtregulators/3-nbfcs-penalized-total-fine-rs12-lakh
+
+
+Securities / Stock Broking (SEBI)
+
+BSE (Bombay Stock Exchange) Even the exchange itself got penalized - for giving some market participants access to corporate disclosures before others, which undermines fair access to information.
+
+Axis Securities Fined over issues with how it handled client funds.
+
+Mishtann Foods Ltd - Rs 15 lakh Fined for not addressing investor grievances promptly. Source: https://www.policybazaar.com/corporate-insurance/articles/sebi-penalties-for-non-compliance/
+
+
