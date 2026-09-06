@@ -64,3 +64,13 @@ Axis Securities Fined over issues with how it handled client funds.
 Mishtann Foods Ltd - Rs 15 lakh Fined for not addressing investor grievances promptly. Source: https://www.policybazaar.com/corporate-insurance/articles/sebi-penalties-for-non-compliance/
 
 
+Telecom (TRAI)
+
+Airtel, Vodafone, Idea - Rs 3,050 crore combined Fined for not giving Reliance Jio enough points of interconnection (PoI), breaking the rule that call failures at interconnect points shouldn't exceed 5 per 1,000 calls. TRAI said the non-compliance looked like a deliberate attempt to stifle competition. Source: https://www.tribuneindia.com/news/archive/nation/trai-imposes-huge-fine-for-blocking-jio-313044
+
+Telecom operators - Rs 2,313 crore combined (subscriber verification norms) BSNL (Rs 583 crore), Reliance Communications (Rs 377 crore), Tata Teleservices (Rs 328 crore), Airtel (Rs 300 crore), Vodafone (Rs 285 crore), Idea (Rs 218 crore), Aircel (Rs 108 crore), and MTS (Rs 53 crore) were all fined for non-compliant Customer Acquisition Forms - basically, failing to verify or disconnect subscribers within the required 72-hour window. Source: https://www.deccanherald.com/business/telcos-fined-violating-verification-norms-2078654
+
+MTNL - Rs 13 lakh (2025-26) Rs 7 lakh for Quality of Service violations, plus Rs 6 lakh (Rs 3 lakh each for Delhi and Mumbai) for publishing broken geospatial coverage map links on its website, despite reporting 100% compliance in its own Performance Monitoring Report. In other words, the company's own compliance report didn't match reality. Source: https://www.psuconnect.in/psu-news/trai-imposes-7-lakh-financial-disincentive-on-mtnl-for-quality-of-service-norms-violation-in-august-2025
+
+Telecom operators - Rs 19 million in QoS penalties, FY26 BSNL, Airtel, MTNL, Vodafone Idea, and Reliance Jio were all penalized in the same fiscal year for missing Quality of Service benchmarks. This isn't a one-off - it happens to nearly every major operator, every year. Source: https://tele.net.in/national-news/trai-imposes-rs-19-million-in-qos-penalties-on-telecom-operators-in-fy26-12238146
+
