@@ -74,3 +74,12 @@ MTNL - Rs 13 lakh (2025-26) Rs 7 lakh for Quality of Service violations, plus Rs
 
 Telecom operators - Rs 19 million in QoS penalties, FY26 BSNL, Airtel, MTNL, Vodafone Idea, and Reliance Jio were all penalized in the same fiscal year for missing Quality of Service benchmarks. This isn't a one-off - it happens to nearly every major operator, every year. Source: https://tele.net.in/national-news/trai-imposes-rs-19-million-in-qos-penalties-on-telecom-operators-in-fy26-12238146
 
+
+E-Commerce / Data Privacy (DPDP Act, CCI)
+
+Meta/WhatsApp - $25.4 million (2021 policy, penalty upheld in India) India's Competition Commission (CCI) ordered WhatsApp to stop sharing user data with other Meta companies for advertising, for five years, and fined Meta $25.4 million for antitrust abuse. The issue traced back to WhatsApp's 2021 "take-it-or-leave-it" privacy policy update, which removed a prior opt-out and forced users to accept wider data sharing just to keep using the app. Source: https://techcrunch.com/?p=2916864
+
+Digital Personal Data Protection Act, 2023 (DPDP Act) - a risk that hasn't fully landed yet This is now enforceable through the Data Protection Board of India (DPBI), which became fully operational once the DPDP Rules 2025 came into effect. Penalties go up to Rs 250 crore per contravention, and the law applies broadly - e-commerce platforms, banks, fintech startups, hospitals, and SaaS companies are all in scope. One example legal analysts use: an e-commerce platform processing customer location data for 3 months without valid consent, affecting 250,000 customers, caught during a regulatory audit rather than self-reported. That single violation type carries a base penalty range of Rs 50-100 crore. Sources: https://vistainfosec.com/blog/dpdp-act-non-compliance-penalties/ https://www.dpdpa.com/blogs/dpdpa_penalties_explained_50_crore_250_crore_fines.html
+
+Why this one's included: unlike the other cases above, which are all penalties that have already happened, the DPDP Act is a compliance wave that hasn't fully hit yet - enforcement ramps up as deadlines land through 2026-2027. It's a live example of exactly the situation RegWatch is built for: a major new regulation has been published, and every company it applies to now needs to figure out which of its internal policies are affected, ideally before enforcement starts rather than after the first fine.
+
