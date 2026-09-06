@@ -45,3 +45,11 @@ NBFCs / Lending / Credit Bureaus
 TransUnion CIBIL, CRIF High Mark, Equifax, and 2 NBFCs (2026) Five entities fined for issues ranging from delayed customer compensation to credit reporting errors, microfinance loan pricing rules, and securitization requirements. Source: https://www.analyticsinsight.net/news/rbi-imposes-penalties-on-5-firms-over-credit-reporting-compliance-lapses
 
 3 NBFCs, Rs 12 lakh total (2026) One of them hadn't set up a system to review account risk categorisation every six months, as required. Another hadn't built software to identify and report suspicious transactions. Source: https://www.fintechbiznews.com/govtregulators/3-nbfcs-penalized-total-fine-rs12-lakh
+
+Insurance (IRDAI)
+
+SBI General Insurance - Rs 25 lakh Fined for not meeting minimum obligations under Motor Third Party Insurance Business regulations (2015), a violation of Section 32D of the Insurance Act, 1938. Source: https://www.business-standard.com/article/news-cm/irdai-imposes-penalty-on-sbi-general-insurance-company-121042100309_1.html
+
+TransUnion CIBIL, CRIF High Mark, Equifax, and 2 NBFCs (2026) Five entities fined for issues ranging from delayed customer compensation to credit reporting errors, microfinance loan pricing rules, and securitization requirements. Source: https://www.analyticsinsight.net/news/rbi-imposes-penalties-on-5-firms-over-credit-reporting-compliance-lapses
+
+3 NBFCs, Rs 12 lakh total (2026) One of them hadn't set up a system to review account risk categorisation every six months, as required. Another hadn't built software to identify and report suspicious transactions. Source: https://www.fintechbiznews.com/govtregulators/3-nbfcs-penalized-total-fine-rs12-lakh
